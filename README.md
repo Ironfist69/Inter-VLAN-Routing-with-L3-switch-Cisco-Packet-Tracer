@@ -13,6 +13,6 @@ This project demonstrates the implementation of Inter-VLAN Routing using a combi
 
 - VLAN 10 → PCs (User network)
 - VLAN 20 → Servers (and some PCs)
-- VLAN 30 → Wi-Fi / Laptop network
+- VLAN 30 → Wi-Fi / Laptop network (and some PCs)
 - VLAN 50 → Printer network
 - VLAN 100 → Native VLAN for uplink
