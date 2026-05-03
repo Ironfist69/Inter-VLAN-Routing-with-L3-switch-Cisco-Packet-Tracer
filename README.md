@@ -10,3 +10,9 @@ This project demonstrates the implementation of Inter-VLAN Routing using a combi
 
 ## Topology
 <img width="1428" height="598" alt="2053" src="https://github.com/user-attachments/assets/7d15d0b3-9ecb-435f-b4fb-49dc8297afbc" />
+
+VLAN 10 → PCs (User network)
+VLAN 20 → Servers (and some PCs)
+VLAN 30 → Wi-Fi / Laptop network
+VLAN 50 → Printer network
+VLAN 100 → Native VLAN for uplink
