@@ -43,5 +43,34 @@ This project demonstrates the implementation of Inter-VLAN Routing using a combi
 > Switch(config-if)# switchport trunk allowed vlan 10, vlan 20, vlan 30, vlan 50
 >
 > Switch(config-if)# switchport trunk native vlan 100
+
+<img width="722" height="330" alt="Screenshot From 2026-05-03 16-39-56" src="https://github.com/user-attachments/assets/72d27118-407d-446b-85d9-2712c1544e25" />
+
+By default using encapsulation IEEE 802.1q (Open-Source Standard)
+
+### L2 Switch
+- VLAN creation (same for three switches same vlans 10,20...50)
+>Switch(config)# vlan 10
 >
-By default encapsulation IEEE 802.1q (Open-Source Standard)
+>Switch(config-vlan)# name [vlan10]
+>
+>Switch(config-vlan)# exit
+>
+- Switching VLAN of ports
+> Switch(config)# int range f0/1-2,f0/3
+>
+> Switch(config-if)# switchport mode access
+> 
+> Switch(config-if)# switchport access vlan 10
+>
+> Switch(config-if)# no sh
+>
+Make sure to change trunk native VLAN to previous native vlan (in this case 100)
+
+## Working
+
+
+https://github.com/user-attachments/assets/89fa7cbb-450c-4b71-beba-873ec5c5d1bb
+
+
+
