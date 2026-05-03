@@ -9,3 +9,4 @@ This project demonstrates the implementation of Inter-VLAN Routing using a combi
 - Test connectivity across VLANs
 
 ## Topology
+<img width="1428" height="598" alt="2053" src="https://github.com/user-attachments/assets/7d15d0b3-9ecb-435f-b4fb-49dc8297afbc" />
