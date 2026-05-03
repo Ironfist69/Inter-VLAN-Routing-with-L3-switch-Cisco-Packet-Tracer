@@ -7,3 +7,5 @@ This project demonstrates the implementation of Inter-VLAN Routing using a combi
 - Enable communication between VLANs using L3 switch routing
 - Implement trunking between switches
 - Test connectivity across VLANs
+
+## Topology
