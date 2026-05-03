@@ -2,7 +2,7 @@
 ## Overview
 This project demonstrates the implementation of Inter-VLAN Routing using a combination of Layer 2 and Layer 3 switches in Cisco Packet Tracer. The network is segmented into multiple VLANs to improve scalability, and management.
 
-##Objectives
+## Objectives
 - Configure multiple VLANs across switches
 - Enable communication between VLANs using L3 switch routing
 - Implement trunking between switches
